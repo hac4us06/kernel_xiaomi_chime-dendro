@@ -8,7 +8,7 @@ set -e
 sed -i 's/#ifdef CONFIG_KPROBES/#if 0/g' KernelSU/kernel/ksu.c
 
 export KBUILD_BUILD_USER=Ash
-export KBUILD_BUILD_HOST=GrassLand
+export KBUILD_BUILD_HOST=Sumeru-City-Archon
 
 PATH=$PWD/toolchain/bin:$PATH
 
